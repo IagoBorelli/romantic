@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Coracao de Amor</title>
+</head>
+<body>
+    <button id="button" onclick="criarCoracao()">Eu quero te contar uma coisa...</button>
+    <div class="declaracao">
+        <div id="heart" style="display:none;"></div>
+        <div id="text" style="display:none;">
+            Eu te amo
+        </div>
+        <div id="text2" style="display:none;">
+            <p>
+                Meu amor por você é como o oceano, vasto e profundo. É como o sol, que brilha intensamente e aquece minha alma. Cada batida do meu coração sussurra o quanto eu te amo. Não existem palavras suficientes para expressar a profundidade do meu sentimento por você. Você é a luz que ilumina meus dias mais escuros, a inspiração por trás dos meus sorrisos mais sinceros. Meu amor por você é eterno, incondicional e verdadeiro, e eu serei para sempre grato por tê-la em minha vida.</p>
+        </div>
+    </div>
+
+    <script>
+        function criarCoracao() {
+            document.getElementById('button').style.display = 'none';
+            document.getElementById('heart').style.display = 'block';
+            document.getElementById('text').style.display = 'block';
+            document.getElementById('text2').style.display = 'block';
+        }
+    </script>
+</body>
+</html>
